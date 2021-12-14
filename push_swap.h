@@ -1,0 +1,11 @@
+#ifndef PUSH_SWAP_PUSH_SWAP_H
+#define PUSH_SWAP_PUSH_SWAP_H
+
+#define NUMBER_OF_ARGUMENTS 2
+
+#define
+
+#define WRONG_NUMBER_OF_ARGUMENTS 1
+#define INVALID_INPUT_DATA 2
+
+#endif
