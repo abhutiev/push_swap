@@ -96,4 +96,5 @@ void destroy_splitted(char **arr) {
 		arr[i] = NULL;
 	}
 	free(arr);
+	arr = NULL;
 }
