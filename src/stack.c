@@ -1,4 +1,4 @@
-#include "push_swap.h"
+#include "../push_swap.h"
 
 t_stack *fill_stack(char **input) {
 	t_stack *stack = (t_stack *)malloc(sizeof(t_stack));

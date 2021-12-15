@@ -1,4 +1,4 @@
-#include "push_swap.h"
+#include "../push_swap.h"
 
 static size_t word_len(char const *s, char c) {
 	size_t	i;

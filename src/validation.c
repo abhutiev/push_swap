@@ -1,4 +1,4 @@
-#include "push_swap.h"
+#include "../push_swap.h"
 
 int validate_input_stack(char *stack) {
 	for (int i = 0; stack[i]; i++) {

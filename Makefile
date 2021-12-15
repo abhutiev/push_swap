@@ -4,7 +4,7 @@ ROOT = $(CURDIR)
 
 BINFOLDER = ${ROOT}/bin
 
-SRC = *.c
+SRC = src/*.c
 
 all:
 	gcc ${SRC}

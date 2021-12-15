@@ -1,4 +1,4 @@
-#include "push_swap.h"
+#include "../push_swap.h"
 
 size_t custom_strlen(char *str) {
 	int i = 0;
