@@ -27,3 +27,17 @@ void log_error(char* error_message) {
 	write(2, error_message, custom_strlen(error_message));
 }
 
+void print_char(char c) {
+	write(1, &c, 1);
+}
+
+void print_int(int n) {
+	if (n < 0) {
+		print_char('-');
+	} else if (n < 10){
+		print_char(n + '0');
+	} else {
+		print_int(n / 10);
+		print_char(n % 10 + '0');
+	}
+}

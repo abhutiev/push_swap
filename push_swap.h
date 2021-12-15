@@ -18,9 +18,15 @@ char	**split(char *s, char c);
 int	custom_atoi(char *str);
 void destroy_splitted(char **arr);
 
+void print_int(int n);
+void print_char(char c);
+void print_stacks(t_stack *a, t_stack *b);
+
+
 t_stack *fill_stack(char **input);
 t_stack *init_stack(char *input);
 void destroy_stack(t_stack *stack);
+t_stack *init_empty_stack(size_t size);
 
 
 int validate_input_stack(char *stack);

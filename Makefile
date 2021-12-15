@@ -7,9 +7,9 @@ BINFOLDER = ${ROOT}/bin
 SRC = src/*.c
 
 all:
-	gcc ${SRC}
+	gcc ${SRC} -o ${PROJECT_NAME}
 
 clean:
 
 fclean:
-	rm -rf ${BINFOLDER}/${PROJECT_NAME}
+	rm -rf ${PROJECT_NAME}
