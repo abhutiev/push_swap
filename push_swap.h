@@ -1,9 +1,12 @@
 #ifndef PUSH_SWAP_PUSH_SWAP_H
 #define PUSH_SWAP_PUSH_SWAP_H
 
+#include "unistd.h"
+#include "stdlib.h"
+
 #define NUMBER_OF_ARGUMENTS 2
 
-struct s_stack {
+typedef struct s_stack {
 	int    *numbers;
 	size_t size;
 } t_stack;
@@ -17,6 +20,6 @@ int validate_input_data(int number_of_arguments, char **argv);
 size_t custom_strlen(char *str);
 char *custom_strdup(char *orig);
 int is_digit(char c);
-void* log_error(char* error_message);
+void log_error(char* error_message);
 
 #endif

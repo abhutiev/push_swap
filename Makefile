@@ -7,7 +7,7 @@ BINFOLDER = ${ROOT}/bin
 SRC = *.c
 
 all:
-	gcc SRC
+	gcc ${SRC}
 
 clean:
 
