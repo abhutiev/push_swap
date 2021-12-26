@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="push_swap"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/aleksandr/Desktop/push_swap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/aleksandr/Desktop/push_swap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/aleksandr/Desktop/push_swap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap">
+				<Option output="/Users/aleksandr/Desktop/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aleksandr/Desktop/push_swap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aleksandr/Desktop/push_swap/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="push_swap/fast">
+				<Option output="/Users/aleksandr/Desktop/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aleksandr/Desktop/push_swap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/aleksandr/Desktop/push_swap/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/aleksandr/Desktop/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/aleksandr/Desktop/push_swap/push_swap.h">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aleksandr/Desktop/push_swap/src/atoi.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aleksandr/Desktop/push_swap/src/main.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aleksandr/Desktop/push_swap/src/split.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aleksandr/Desktop/push_swap/src/stack.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aleksandr/Desktop/push_swap/src/utils.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aleksandr/Desktop/push_swap/src/validation.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/aleksandr/Desktop/push_swap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

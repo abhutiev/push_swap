@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aleksandr/Desktop/push_swap/push_swap.h
+unistd.h
+/Users/aleksandr/Desktop/push_swap/unistd.h
+stdlib.h
+/Users/aleksandr/Desktop/push_swap/stdlib.h
+
+/Users/aleksandr/Desktop/push_swap/src/atoi.c
+../push_swap.h
+/Users/aleksandr/Desktop/push_swap/push_swap.h
+
+/Users/aleksandr/Desktop/push_swap/src/main.c
+../push_swap.h
+/Users/aleksandr/Desktop/push_swap/push_swap.h
+stdio.h
+-
+
+/Users/aleksandr/Desktop/push_swap/src/split.c
+../push_swap.h
+/Users/aleksandr/Desktop/push_swap/push_swap.h
+
+/Users/aleksandr/Desktop/push_swap/src/stack.c
+../push_swap.h
+/Users/aleksandr/Desktop/push_swap/push_swap.h
+
+/Users/aleksandr/Desktop/push_swap/src/utils.c
+../push_swap.h
+/Users/aleksandr/Desktop/push_swap/push_swap.h
+
+/Users/aleksandr/Desktop/push_swap/src/validation.c
+../push_swap.h
+/Users/aleksandr/Desktop/push_swap/push_swap.h
+

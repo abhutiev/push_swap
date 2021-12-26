@@ -1,6 +1,6 @@
 #include "../push_swap.h"
 
-t_stack *fill_stack(char **input) {
+static t_stack *fill_stack(char **input) {
 	t_stack *stack = (t_stack *)malloc(sizeof(t_stack));
 
 	for (stack->size = 0; input[stack->size]; stack->size++) {}
@@ -42,4 +42,23 @@ void print_stacks(t_stack *a, t_stack *b) {
 		print_int(b->numbers[i]);
 		print_char('\n');
 	}
+}
+
+void swap_stack(t_stack *stack) {
+	if (stack->size < 2) {
+		return;
+	}
+	int b = stack->numbers[stack->size - 1];
+	stack->numbers[stack->size - 1] = stack->numbers[stack->size - 2];
+	stack->numbers[stack->size - 2] = b;
+}
+
+void sa(t_stack *stack) {
+	log_action("sa");
+	swap_stack(stack);
+}
+
+void sa(t_stack *stack) {
+	log_action("sa");
+	swap_stack(stack);
 }

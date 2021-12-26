@@ -22,8 +22,6 @@ void print_int(int n);
 void print_char(char c);
 void print_stacks(t_stack *a, t_stack *b);
 
-
-t_stack *fill_stack(char **input);
 t_stack *init_stack(char *input);
 void destroy_stack(t_stack *stack);
 t_stack *init_empty_stack(size_t size);
@@ -36,5 +34,6 @@ size_t custom_strlen(char *str);
 char *custom_strdup(char *orig);
 int is_digit(char c);
 void log_error(char* error_message);
+void log_action(char* action);
 
 #endif

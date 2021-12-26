@@ -27,6 +27,10 @@ void log_error(char* error_message) {
 	write(2, error_message, custom_strlen(error_message));
 }
 
+void log_action(char* action) {
+	write(1, action, custom_strlen(action));
+}
+
 void print_char(char c) {
 	write(1, &c, 1);
 }
